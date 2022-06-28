@@ -43,7 +43,7 @@ Choco install awscli
 ### install azure Cli:
 
 ```
-choco install ***
+choco install az
 
 ``
 
