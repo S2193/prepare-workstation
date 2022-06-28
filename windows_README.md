@@ -45,7 +45,7 @@ Choco install awscli
 ```
 choco install az
 
-``
+```
 
 #### install eksctl:
 
