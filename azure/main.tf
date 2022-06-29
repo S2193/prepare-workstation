@@ -28,6 +28,8 @@ module "linuxservers" {
   storage_account_type = "Standard_LRS"
   remote_port          = "22"
   custom_data          = local.template_file_int
+  enable_ssh_key                   = true
+  ssh_key              = "mykey.pub"
 
   depends_on = [azurerm_resource_group.example]
 }
